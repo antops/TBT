@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\calculation">
+      <UniqueIdentifier>{c2a881dd-c15c-45a2-bf25-0413718e54a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\calculation">
+      <UniqueIdentifier>{03b17627-b2cd-4340-8175-db2c041e0ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graph">
+      <UniqueIdentifier>{f732f776-36ce-4101-9871-6900349ae332}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graph">
+      <UniqueIdentifier>{f5b00423-8b7d-40a1-88f3-734ad659f8c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graph\source">
+      <UniqueIdentifier>{1798e801-8fdb-4a07-9433-0e5d74fd1442}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graph\mirror">
+      <UniqueIdentifier>{fd027b8b-0d81-49ff-894b-55ce7668b430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graph\mirror">
+      <UniqueIdentifier>{d31e17ae-6b5e-45ea-8d19-b46f4e6ea580}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\graph\source">
+      <UniqueIdentifier>{1f099a5b-20b0-45e4-8d09-ba345164e5a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="calculation\RayTracing.cpp">
+      <Filter>源文件\calculation</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\node_base.cpp">
+      <Filter>源文件\graph</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\mirror\mirror_quadric_surface.cpp">
+      <Filter>源文件\graph\mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\mirror\Restriction.cpp">
+      <Filter>源文件\graph\mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\source\source_base.cpp">
+      <Filter>源文件\graph\source</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\source\source_guassian.cpp">
+      <Filter>源文件\graph\source</Filter>
+    </ClCompile>
+    <ClCompile Include="graph\mirror\mirror_stl.cpp">
+      <Filter>源文件\graph\mirror</Filter>
+    </ClCompile>
+    <ClCompile Include="calculation\ray_tracing_stl_index.cpp">
+      <Filter>源文件\calculation</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="calculation\RayTracing.h">
+      <Filter>头文件\calculation</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\node_base.h">
+      <Filter>头文件\graph</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\mirror\mirror_quadric_surface.h">
+      <Filter>头文件\graph\mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\mirror\Restriction.h">
+      <Filter>头文件\graph\mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\mirror\node_mirror.h">
+      <Filter>头文件\graph\mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\source\source_base.h">
+      <Filter>头文件\graph\source</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\source\source_guassian.h">
+      <Filter>头文件\graph\source</Filter>
+    </ClInclude>
+    <ClInclude Include="graph\mirror\mirror_stl.h">
+      <Filter>头文件\graph\mirror</Filter>
+    </ClInclude>
+    <ClInclude Include="calculation\ray_tracing_stl_index.h">
+      <Filter>头文件\calculation</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
